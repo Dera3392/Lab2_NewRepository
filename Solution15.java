@@ -30,12 +30,12 @@ class Solution {
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
         int length = Math.max(v1.length,v2.length);
-        for {int i = 0; i < length; ++i} (
+        for(int i = 0; i < length; ++i){
             int x = 0, y = 0;
-            if (i < v1.length()) {
+            if (i < v1.length) {
                 x = Integer.parseInt(v1[i]);
             }
-            if (i < v2.length()) {
+            if (i < v2.length) {
                 y = Integer.parseInt(v2[i]);
             }
             if (x > y) {
@@ -44,7 +44,7 @@ class Solution {
             if (x < y) {
                 return -1;
             }
-        )
+        }
         return 0;
     }
 }
