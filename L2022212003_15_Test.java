@@ -6,7 +6,8 @@ import org.junit.Test;
 * 测试类设计原则：
 * - 覆盖所有功能：程序在比较修订号时，应有忽略任何前导零后的整数值、将未指定的版本号视为0的功能
 * - 等价类划分：根据version1大于、等于、小于version2三种情况划分等价类
-* 
+* @params shit
+* @return shitshit
 */
 public class L2022212003_15_Test {
 
